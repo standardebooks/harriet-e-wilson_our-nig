@@ -2,7 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* All poems */
-
 [epub|type~="z3998:poem"] p{
 	text-align: left;
 	text-indent: 0;
@@ -31,10 +30,16 @@ p span.i1{
 	padding-left: 2em;
 }
 
-p span.i4{
+p span.i12{
 	text-indent: -1em;
-	padding-left: 5em;
+	padding-left: 13em;
 }
+
+p span.i7{
+	text-indent: -1em;
+	padding-left: 8em;
+}
+
 /* End all poems */
 
 /* All epigraphs */
@@ -104,3 +109,10 @@ footer{
 	font-variant: small-caps;
 }
 /* End footers */
+
+/* Subtitle */
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+/* End subtitle */
