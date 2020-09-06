@@ -123,7 +123,7 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 /* End subtitle */
 
 /* Headers */
-header{
+#appendix header{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
@@ -131,7 +131,7 @@ header{
 /* End headers */
 
 /* Custom */
-footer + hr + p{
+#appendix footer + hr + p{
 	font-variant: small-caps;
 	text-align: right;
 }
