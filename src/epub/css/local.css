@@ -39,7 +39,6 @@ p span.i7{
 	text-indent: -1em;
 	padding-left: 8em;
 }
-
 /* End all poems */
 
 /* All epigraphs */
@@ -132,10 +131,8 @@ header{
 /* End headers */
 
 /* Custom */
-
 footer + hr + p{
 	font-variant: small-caps;
 	text-align: right;
 }
-
 /* End custom */
