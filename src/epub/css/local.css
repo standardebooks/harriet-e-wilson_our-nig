@@ -85,17 +85,6 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
-/* Footers */
-footer{
-	margin-top: 1em;
-	text-align: right;
-}
-
-.signature{
-	font-variant: small-caps;
-}
-/* End footers */
-
 /* Subtitle */
 span[epub|type~="subtitle"]{
 	display: block;
@@ -109,14 +98,38 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 }
 /* End subtitle */
 
-/* Custom */
-#appendix footer + hr + p{
-	font-variant: small-caps;
+/* Letters */
+[epub|type~="z3998:letter"] header{
 	text-align: right;
 }
 
-#appendix > p:nth-of-type(6){
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"]{
+	font-variant: small-caps;
+}
+
+.signature{
+	font-variant: small-caps;
+}
+/* End letters */
+
+/* Custom */
+#appendix > blockquote{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#appendix > blockquote:nth-of-type(2) > header > p{
 	text-align: center;
+	font-variant: small-caps;
 	margin: 1em;
 }
 /* End custom */
