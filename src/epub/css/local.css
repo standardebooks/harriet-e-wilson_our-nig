@@ -13,8 +13,8 @@
 
 [epub|type~="z3998:poem"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:poem"] p > span + br{
@@ -22,8 +22,8 @@
 }
 
 p span.i1{
-	text-indent: -1em;
 	padding-left: 2em;
+	text-indent: -1em;
 }
 
 p span.i12{
@@ -32,8 +32,8 @@ p span.i12{
 }
 
 p span.i7{
-	text-indent: -1em;
 	padding-left: 8em;
+	text-indent: -1em;
 }
 /* End all poems */
 
