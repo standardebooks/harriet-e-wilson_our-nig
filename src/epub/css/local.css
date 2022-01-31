@@ -27,8 +27,8 @@ p span.i1{
 }
 
 p span.i12{
-	text-indent: -1em;
 	padding-left: 13em;
+	text-indent: -1em;
 }
 
 p span.i7{
@@ -45,9 +45,9 @@ p span.i7{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -111,8 +111,8 @@ footer{
 }
 
 #appendix > blockquote:nth-of-type(2) > header > p{
-	text-align: center;
 	font-variant: small-caps;
 	margin: 1em;
+	text-align: center;
 }
 /* End custom */
