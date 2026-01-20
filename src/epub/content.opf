@@ -65,7 +65,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/584</dc:source>
 		<dc:source>https://archive.org/details/ournigorsketches00wilsrich</dc:source>
 		<meta property="se:production-notes">What the E. in Harriet E. Wilson stood for is lost time so the full-name metadata element is not included.</meta>
-		<meta property="se:word-count">25583</meta>
+		<meta property="se:word-count">25321</meta>
 		<meta property="se:reading-ease.flesch">71.75</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Our_Nig</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/harriet-e-wilson_our-nig</meta>
