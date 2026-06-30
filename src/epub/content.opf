@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/harriet-e-wilson/our-nig</dc:identifier>
 		<dc:date>2020-09-10T17:43:32Z</dc:date>
 		<meta property="dcterms:modified">2020-09-10T17:43:32Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -54,8 +55,8 @@
 		<meta property="term" refines="#subject-5">Unknown</meta>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2009125495</meta>
-		<meta property="se:subject">Autobiography</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Autobiography</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">An autobiographical account of a young biracial girl abandoned by her parents and forced into servitude in the northern United States.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Our Nig&lt;/i&gt; is an autobiographical novel by &lt;a href="https://standardebooks.org/ebooks/harriet-e-wilson"&gt;Harriet E. Wilson&lt;/a&gt;, her only published work. It was written not for pleasure, but to financially support the lives of the author and her sick child. It was long considered to be the first novel published by an African-American woman in the United States, but recent research has put that title into question.&lt;/p&gt;
@@ -64,21 +65,22 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/584</dc:source>
 		<dc:source>https://archive.org/details/ournigorsketches00wilsrich</dc:source>
-		<meta property="se:production-notes">What the E. in Harriet E. Wilson stood for is lost time so the full-name metadata element is not included.</meta>
-		<meta property="se:word-count">25321</meta>
-		<meta property="se:reading-ease.flesch">71.75</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Our_Nig</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/harriet-e-wilson_our-nig</meta>
+		<meta property="schema:wordCount">25321</meta>
+		<meta property="schema:educationalLevel">71.75</meta>
+		<link href="https://en.wikipedia.org/wiki/Our_Nig" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/harriet-e-wilson_our-nig" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Harriet E. Wilson</dc:creator>
 		<meta property="file-as" refines="#author">Wilson, Harriet E.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Harriet_E._Wilson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n83064162</meta>
+		<link href="https://en.wikipedia.org/wiki/Harriet_E._Wilson" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n83064162.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Jean-François Millet</dc:contributor>
 		<meta property="file-as" refines="#artist">Millet, Jean-François</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Millet</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50033212</meta>
+		<link href="https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Millet" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50033212.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
@@ -93,7 +95,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
