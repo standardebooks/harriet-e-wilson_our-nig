@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/harriet-e-wilson/our-nig</dc:identifier>
 		<dc:date>2020-09-10T17:43:32Z</dc:date>
@@ -57,11 +57,11 @@
 		<meta property="term" refines="#subject-6">sh2009125495</meta>
 		<meta property="schema:genre">Autobiography</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">An autobiographical account of a young biracial girl abandoned by her parents and forced into servitude in the northern United States.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>An autobiographical account of a young biracial girl abandoned by her parents and forced into servitude in the northern United States.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Our Nig&lt;/i&gt; is an autobiographical novel by &lt;a href="https://standardebooks.org/ebooks/harriet-e-wilson"&gt;Harriet E. Wilson&lt;/a&gt;, her only published work. It was written not for pleasure, but to financially support the lives of the author and her sick child. It was long considered to be the first novel published by an African-American woman in the United States, but recent research has put that title into question.&lt;/p&gt;
 			&lt;p&gt;Frado, born to a white mother and black father, is abandoned by her parents at age six and left to the Bellmont family. Though the Bellmonts live in the northern United States, the matriarch of the family, Mrs. Bellmont, loathes her for her dark skin color. She forces Frado (nicknamed “Nig”) to do the chores of the family under the threat of rawhide floggings and beatings. However, not everyone agrees with Mrs. Bellmont’s treatment of their new family member.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/584</dc:source>
 		<dc:source>https://archive.org/details/ournigorsketches00wilsrich</dc:source>
